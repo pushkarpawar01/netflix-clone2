@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background: url(https://isquad.tv/wp-content/uploads/2018/08/Netflix-Background.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(100px, 100vw);
+}
+
+.box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    max-width: 80vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 360px;
+    position: relative;
+    z-index: 40;
+}
+
+.sign {
+    margin-right: 500px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.hero {
+
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 42px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 23px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.first {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.form {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.separation {
+    height: 5px;
+    background-color: gray;
+}
+
+.btn {
+    padding: 3px 8px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.sign {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 1px solid rgba(234, 226, 226, 0.5);
+
+}
+.eng{
+    background-color: rgba(23, 23, 23, 0.3);
+    color: white;
+}
+#id{
+    background-color: rgba(23, 23, 23, 0.3);
+    color: white;
+    border: 0px;
+}
+.second{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    align-items: center;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+    height: 50vh;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+section.second > div{
+    display: flex;
+    flex-direction: column;
+}
+section.second > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+section.second > div :nth-child(2){
+    font-size: 20px;
+    font-weight: 100;
+    gap: 15px;
+}
